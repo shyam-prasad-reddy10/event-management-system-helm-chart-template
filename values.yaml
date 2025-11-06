@@ -5,13 +5,13 @@ mysql:
   database: ecommerce
 
 backend:
-  image: srithar1234/ecommerce-backend1:v1
+  image: shyamprasad10/eventmanagement-backend:v1
   replicas: 2
   port: 8080
   nodePort: 30083
 
 frontend:
-  image: srithar1234/ecommerce-frontend1:v1
+  image: shyamprasad10/eventmanagement-frontend:v1
   replicas: 2
   port: 8080
   nodePort: 30082
